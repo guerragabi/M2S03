@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         checkbox.addEventListener('change', () => {
-            label.classList.toogle('done', checkbox.checked)
+            label.classList.toggle('done', checkbox.checked)
         })
 
         itemLista.appendChild(checkbox)
